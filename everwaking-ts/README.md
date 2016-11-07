@@ -1,1 +1,0 @@
-I Created a small website with both dart and ts to compare them.
