@@ -1,0 +1,57 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "ContactComponent"
+      }
+    ],
+    "6": "contact_component.dart"
+  },
+  "type": {
+    "ContactComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "contact",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "ContactComponent",
+        "moduleUrl": "asset:everwaking/lib/contact_component.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "      <div class=\"contacts light\">\r\n        <ul class=\"on-light content\">\r\n          <li>\r\n            <b>adam.johannesmeyer@gmail.com</b>\r\n          </li>\r\n          <li>\r\n            Full Stack Developer\r\n          </li>\r\n          <li class=\"github-link\">\r\n            <a class=\"on-light-link\" href=\"https://github.com/adamjo\">Github</a>\r\n          </li>\r\n        </ul>\r\n      </div>\r\n    ",
+        "templateUrl": "asset:everwaking/lib/contact_component.dart",
+        "styles": [
+          "      .contacts {\r\n        flex: 1;\r\n        padding-top: 20px;\r\n      }\r\n\r\n      ul {\r\n        margin: 0;\r\n        padding: 0;\r\n      }\r\n\r\n      li {\r\n        list-style-type: none;\r\n        margin-bottom: 10px;\r\n        width: 100%;\r\n      }\r\n\r\n      .contact-link {\r\n        color: hsl(0, 0%, 90%);\r\n      }\r\n\r\n      .contact-link:visited {\r\n        color: hsl(0, 0%, 80%);\r\n      }\r\n\r\n      .contact-link:active {\r\n        color: hsl(0, 0%, 85%);\r\n      }\r\n\r\n      .github-link {\r\n        padding: 10px 0;\r\n      }\r\n\r\n      li:first-child {\r\n        border-bottom: 1px solid grey;\r\n        width: 90%;\r\n        margin: auto;\r\n        margin-bottom: 10px;\r\n      }\r\n\r\n      li:last-child {\r\n        margin-bottom: 0px;\r\n      }\r\n    "
+        ],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

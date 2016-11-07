@@ -1,0 +1,87 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "contact_component.dart",
+        "5": false
+      },
+      {
+        "1": "current_project_component.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "CardComponent",
+        "7": [
+          {
+            "2": "ContactComponent"
+          },
+          {
+            "2": "CurrentProjectComponent"
+          }
+        ]
+      }
+    ],
+    "6": "card_component.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "contact_component.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "current_project_component.template.dart",
+        "4": "i2"
+      }
+    ]
+  },
+  "type": {
+    "CardComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "card",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "CardComponent",
+        "moduleUrl": "asset:everwaking/lib/card_component.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "      <div class=\"card\">\r\n        <div class=\"card-info\">\r\n          <contact></contact>\r\n          <current-project></current-project>\r\n        </div>\r\n      </div>\r\n    ",
+        "templateUrl": "asset:everwaking/lib/card_component.dart",
+        "styles": [
+          "        .card {\r\n          display: flex;\r\n          flex-direction: row;\r\n          justify-content: center;\r\n          height: 100%;\r\n        }\r\n\r\n        .card-info {\r\n          box-shadow: var(--x) var(--y) 5px rgba(100, 100, 100, .4);\r\n\r\n          margin: auto;\r\n          min-height: 250px;\r\n          min-width: 400px;\r\n\r\n          display: flex;\r\n          flex-direction: column;\r\n          justify-content: center;\r\n          flex-wrap: wrap;\r\n        }\r\n      "
+        ],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}
