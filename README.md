@@ -1,1 +1,1 @@
-A small website compare the build of Dart and Typescript.
+A small website to compare the build difference of Dart and Typescript.
