@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title= htmlWebpackPlugin.options.data.title
+    each option in htmlWebpackPlugin.options.data.link
+      link(rel=option.rel, type=option.type, href=option.href, sizes=option.sizes)
+    each option in htmlWebpackPlugin.options.data.meta
+      meta(name=option.name, content=option.content)
+    include ./scripts/googleAnalytics
+  body
+    div.flex-container
+      include ./container/card/card

@@ -1,0 +1,12 @@
+# Node Files #
+/node_modules
+/bower_components
+npm-debug.log
+
+/.vscode
+/dist
+
+firebase.json
+.firebaserc
+yarn.lock
+.awcache
